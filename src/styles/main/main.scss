@@ -1,0 +1,76 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    #index{
+        height: 600px;
+
+        background-image: url("src/assets/images/perfil.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #aboutme{
+        article{
+            border: 1px solid gray;
+        }
+    }
+    #projects{
+        margin-left: 11,2%;
+        margin-right: 11,2%;
+        article{
+            border: 1px solid gray;
+        }
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 108px;
+        padding-left: 11.2%;
+        padding-right:11.2%;
+        h1, h2{
+            text-align:center;
+            margin-bottom: 20px;
+        }
+        h1:hover, h2:hover{
+            color: red !important;
+            font-weight: bolder !important;
+            font-size: 300% !important;
+        }
+        article{            
+            padding: 20px;
+            
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    #contact{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ul{
+            li{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+                margin: 5px;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    margin-left: 5px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+header{
+    position:fixed;
+    top:0;
+    width: 100%;
+    nav{
+        background-color: rgb(18,18,18) !important;
+        aside{            
+            ul{
+                li{
+                    .nav-link{
+                        padding: 18px;
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                        letter-spacing: 2px;
+                        font-size: 20px;
+                    }
+                    .nav-link:hover{
+                        color: red !important;
+                        font-weight: bolder !important;
+                        font-size: 200% !important;
+                    }
+                }
+            }
+        }
+    }
+}
