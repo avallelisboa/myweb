@@ -1,3 +1,5 @@
+@import 'jobs/jobs.scss';
+
 main{
     display: flex;
     flex-wrap: wrap;
@@ -13,13 +15,6 @@ main{
         background-attachment: fixed;
     }
     #aboutme{
-        article{
-            border: 1px solid gray;
-        }
-    }
-    #projects{
-        margin-left: 11,2%;
-        margin-right: 11,2%;
         article{
             border: 1px solid gray;
         }
@@ -69,6 +64,12 @@ main{
                     margin-left: 5px;
                     color: white;
                     font-size: 20px;
+                }
+            }
+            li:hover{
+                a{
+                    color: blue;
+                    font-size: 30px;
                 }
             }
         }

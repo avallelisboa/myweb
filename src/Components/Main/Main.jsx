@@ -27,15 +27,15 @@ const Main = () => {
             <ul>
               <li>
                   <img src={IMAGES.linkedin} alt="Linkedin" title="Linkedin" height="20px" width="20px"/>
-                  <a href="">Linkedin</a>
+                  <a href="https://www.linkedin.com/in/andr%C3%A9s-valle-lisboa-582ba3256/" target="_blank">Andrés Valle Lisboa</a>
               </li>
               <li>
                   <img src={IMAGES.whatsapp} alt="Whatsapp" title="Whatsapp" height="20px" width="20px"/>
-                  <a href="">Whatsapp</a>
+                  <a href="https://wa.link/4yj890" target="_blank">Whatsapp</a>
               </li>
               <li>
                   <img src={IMAGES.mail} alt="GMail" title="GMail" height="20px" width="20px"/>
-                  <a href="">GMail</a>
+                  <a href="mailto:avallelisboa@gmail.com" target="_blank">avallelisboa@gmail.com</a>
               </li>
             </ul>
           </article>

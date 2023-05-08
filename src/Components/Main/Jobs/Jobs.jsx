@@ -1,5 +1,5 @@
-import React from 'react'
-import { useState } from 'react';
+import React, { useState } from 'react';
+import IMAGES from '../../../assets/images/Images';
 
 export const Jobs = () => {
     const [selectedSlide, setSelectedSlide] = useState(0);
@@ -23,26 +23,26 @@ export const Jobs = () => {
                     <button type="button" onClick={()=>setSelectedSlide(2)} aria-label="Slide 3"></button>
                 </div>
                 <div className="carousel-inner">
-                    <div className={`carousel-item ${selectedSlide == 0 ? 'active' : ''}`}>
-                        <img src="..." className="d-block w-100" alt="..."/>
+                    <figure className={`carousel-item ${selectedSlide == 0 ? 'active' : ''}`}>
+                        <img src={IMAGES.faroworld} className="d-block img-fluid w-100" alt="FaroWorld" title="FaroWorld"/>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>FaroWorld</h5>
+                            <a href="https://faro-world.com" target="_blank">https://faro-world.com</a>
                         </div>
-                    </div>
-                    <div className={`carousel-item ${selectedSlide == 1 ? 'active' : ''}`}>
-                        <img src="..." className="d-block w-100" alt="..."/>
+                    </figure>
+                    <figure className={`carousel-item ${selectedSlide == 1 ? 'active' : ''}`}>
+                        <img src={IMAGES.smoothingdrawdowncurve} className="img-fluid w-100" alt="Smoothing Drawdown Curve" title="Smoothing Drawdown curve"/>
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Smoothing Drawdown Curve</h5>
+                            <a href="https://github.com/avallelisboa/SmoothingDrawDownCurve2" target="_blank">https://github.com/avallelisboa/SmoothingDrawDownCurve2</a>
                         </div>
-                    </div>        
+                    </figure>        
                 </div>
-                    <button className="carousel-control-prev" type="button" onClick={increaseIndex} data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <button className="carousel-control-prev" type="button" onClick={decreaseIndex} data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" onClick={decreaseIndex} data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <button className="carousel-control-next" type="button" onClick={increaseIndex} data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>
