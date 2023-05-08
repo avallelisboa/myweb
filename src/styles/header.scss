@@ -4,6 +4,13 @@ header{
     width: 100%;
     nav{
         background-color: rgb(18,18,18) !important;
+        .navbar-toggler{
+            .navbar-toggler-icon{
+                background-color: rgb(36, 36, 36);
+                border: 2px solid rgb(54, 54, 54);
+                border-radius: 5px;
+            }
+        }
         aside{            
             ul{
                 li{
