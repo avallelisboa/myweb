@@ -1,16 +1,16 @@
 main{
     #projects{
-        margin-left: 11,2%;
-        margin-right: 11,2%;
+        h2{
+            width: 100%;
+        }
         article{
             border: 1px solid gray;
-            min-height: 300px;
             div{
                 figure{
                     padding: 0px;
                     img{
-                        min-height: 300px;
-                        min-width: 400px;
+                        width: 80%;
+                        height: auto;
                     }
                     div{
                         position: absolute;
